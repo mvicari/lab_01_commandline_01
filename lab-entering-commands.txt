@@ -17,7 +17,9 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
+Applications		Documents		Movies			Public			workspace
+Creative Cloud Files	Downloads		Music			tizen-studio
+Desktop			Library			Pictures		tizen-studio-data
 
 
 ==========
@@ -27,19 +29,19 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
+A sound is made
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
+Desktop/   Documents/ Downloads/ 
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+ls: D: No such file or directory
 
 
 ==========
@@ -49,7 +51,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+total 91368
+-rw-r--r--@  1 mattvicari  staff    116135 Apr 23  2017 1. About.pdf
 
 
 ==========
@@ -59,7 +62,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+.
+..
 
 
 ==========
@@ -69,7 +73,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+ls -a Documents
 
 
 ==========
@@ -79,7 +83,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -a Documents
 
 
 ==========
@@ -89,7 +93,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+Autocompletes /Vol to /Volumes
 
 
 ==========
@@ -99,37 +103,37 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: doesnotexist: No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+<UP>
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+-l, -a
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+<TAB>
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+Documents
 
 
 ==========
@@ -139,7 +143,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+-bash: foo: command not found
 
 
 ==========
@@ -149,7 +153,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
+-bash: foo: command not found
 
 
 ==========
@@ -159,3 +163,7 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+Command: ls
+Flag: -a
+Argument: Desktop
+Prompt: $
